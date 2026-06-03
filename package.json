@@ -8,7 +8,10 @@
     "install:all": "npm install && npm install --prefix server && npm install --prefix client"
   },
   "devDependencies": {
-    "concurrently": "^8.2.0"
+    "concurrently": "^8.2.0",
+    "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1",
+    "supertest": "^7.2.2"
   },
   "dependencies": {
     "zod": "^4.4.3"
